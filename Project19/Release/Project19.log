@@ -1,0 +1,21 @@
+﻿G:\visual studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(402,5): warning MSB8038: 已启用 Spectre 缓解，但找不到 Spectre 缓解库。验证 Visual Studio 工作负荷包括 Spectre 缓解库。有关详细信息，请参阅 https://aka.ms/Ofhn4c。
+  源.c
+c:\users\ch1p\source\repos\project19\project19\源.c(326): warning C4133: “函数”: 从“bool *”到“PBOOL”的类型不兼容
+c:\users\ch1p\source\repos\project19\project19\源.c(363): warning C4047: “return”:“ULONG_PTR”与“void *”的间接级别不同
+源.obj : error LNK2001: 无法解析的外部符号 __tls_used
+源.obj : error LNK2019: 无法解析的外部符号 __imp____acrt_iob_func，该符号在函数 _printf 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 __imp____stdio_common_vfprintf，该符号在函数 _printf 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 __imp____stdio_common_vfscanf，该符号在函数 _scanf 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 __imp____stdio_common_vsprintf，该符号在函数 _sprintf 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 __imp__free，该符号在函数 _md5 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 __imp__malloc，该符号在函数 _TLS_CALLBACK1@12 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 __imp__exit，该符号在函数 _TLS_CALLBACK1@12 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 __imp__srand，该符号在函数 _TLS_CALLBACK1@12 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 __imp__rand，该符号在函数 _TLS_CALLBACK1@12 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 __imp__system，该符号在函数 _main 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 @__security_check_cookie@4，该符号在函数 _TLS_CALLBACK1@12 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 _memcpy，该符号在函数 _md5 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 _memset，该符号在函数 _main 中被引用
+源.obj : error LNK2019: 无法解析的外部符号 ___security_cookie，该符号在函数 _TLS_CALLBACK1@12 中被引用
+LINK : error LNK2001: 无法解析的外部符号 _mainCRTStartup
+C:\Users\Ch1p\source\repos\Project19\Release\Project19.exe : fatal error LNK1120: 16 个无法解析的外部命令
